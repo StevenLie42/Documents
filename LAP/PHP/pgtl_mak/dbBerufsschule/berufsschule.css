@@ -1,0 +1,57 @@
+/* G.Jovanovic 03.04.2018
+   CSS für DB Versand
+ */
+
+.table
+{
+    display: table;
+}
+
+.tr
+{
+    display: table-row;
+}
+
+.th
+{
+    display: table-cell;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: black;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Die Klasse .table.function-table gilt nur für die Funktion PrintTable!
+    Nur dazu gedacht um eine Taballe aus der DB auszugeben.
+    Den unteren Code verwenden, wenn man möchte (siehe function PrintTable).
+*/
+
+
+.table.function-table .td
+{
+    display: table-cell;
+    padding-bottom: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+.table.function-table .th {
+    background-color: #C0C0C0;
+    color: black;
+}
+
+.table.function-table .tr:nth-child(even) .td {
+    background-color: #F5F5F5;
+}
+.table.function-table .tr:nth-child(odd) .td {
+    background-color: #D3D3D3;
+}
+

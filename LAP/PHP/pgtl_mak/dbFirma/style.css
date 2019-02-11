@@ -1,0 +1,15 @@
+.table {
+    display: table;
+}
+.tr {
+    display: table-row;
+}
+.th {
+    display: table-cell;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.td {
+    display: table-cell;
+}

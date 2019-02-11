@@ -1,0 +1,17 @@
+/* G.Jovanovic CSS für Projekt schule
+    14.03.2018*/
+.table {
+    display: table;
+}
+.tr {
+    display: table-row;
+}
+.th {
+    display: table-cell;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.td {
+    display: table-cell;
+}

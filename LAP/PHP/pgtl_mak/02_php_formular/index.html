@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anmeldung</title>
+</head>
+<body>
+<form action="ausgabe.php" methode="get">
+    Nachname:<input type="text" name="nname">
+    <br><br>
+    Ort:
+    <br>
+    <select name="ort[]" multiple>
+        <option value="linz">Linz
+        <option value="wien" selected>Wien</option>
+        <option value="salzburg">Salzburg</option>
+    </select>
+    <br>
+    Buch:<br>
+    <input type="checkbox" name="buch[]" value="buch1">Lesebuch<br>
+    <input type="checkbox" checked name="buch[]" value="buch2">Mathebuch<br>
+    <br>
+    Alter:<br>
+    <input type="radio" name="alter" value="jung">15 - 21 Jahre<br>
+    <input type="radio" name="alter" value="alt" checked>21 Jahre<br>
+    <input type="submit" name="send" value="absenden">
+</form>
+</body>
+</html>

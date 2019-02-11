@@ -1,0 +1,126 @@
+/* G.Jovanovic 03.04.2018
+   CSS für DB Versand
+ */
+
+
+/*
+.table
+{
+    display: table;
+}
+
+.tr
+{
+    display: table-row;
+}
+
+.th
+{
+    display: table-cell;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.td
+{
+    display: table-cell;
+}
+
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    color:red;
+}
+*/
+
+
+.table
+{
+    display: table;
+}
+
+.tr
+{
+    display: table-row;
+}
+
+.th
+{
+    display: table-cell;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: black;
+    text-align: left;
+}
+
+.td
+{
+    display: table-cell;
+    padding-bottom: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+.table tr:nth-child(odd) {
+    background-color: blue;
+}
+
+.table .th {
+    background-color: #C0C0C0;
+    color: black;
+}
+
+
+
+
+
+
+
+/*
+
+
+F5F5F5
+
+D3D3D3
+
+
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+</style>
+*/
